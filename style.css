@@ -4,15 +4,18 @@
   color: #333;
   font-family: "Lato", sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header__more-link {
   font-family: "fantasy", cursive;
 }
@@ -24,25 +27,30 @@
   }
 
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task-input,
 .task-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .add-task__wrapper {
   display: flex;
   margin-bottom: 16px;
 }
+
 .list {
   margin: 0;
   padding: 0px;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -53,9 +61,11 @@
   cursor: pointer;
   outline: none;
 }
+
 .button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .section-heading {
   color: #333;
@@ -66,6 +76,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-input {
   outline: none;
   margin: 0;
@@ -79,16 +90,20 @@
   font-family: "Lato", sans-serif;
   color: #888;
 }
+
 .task-input:focus {
   color: #333;
 }
+
 .add-task__heading {
   display: block;
   margin: 16px 0 20px;
 }
+
 .add-task__input {
   width: 318px;
 }
+
 /* Task list */
 .list__item {
   overflow: hidden;
@@ -99,23 +114,28 @@
   align-items: center;
   list-style: none;
 }
+
 .list__item-checkbox {
   margin: 0 10px;
 }
+
 .list__item-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .list__item-input {
   width: 226px;
 }
+
 .button__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .button__img:hover {
   transform: rotateZ(0);
 }
